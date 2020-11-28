@@ -29,12 +29,37 @@ namespace BeReSe
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form9));
+            this.DataGridView_Address = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Address)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // DataGridView_Address
+            // 
+            this.DataGridView_Address.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridView_Address.Location = new System.Drawing.Point(50, 51);
+            this.DataGridView_Address.Name = "DataGridView_Address";
+            this.DataGridView_Address.Size = new System.Drawing.Size(257, 233);
+            this.DataGridView_Address.TabIndex = 0;
+            // 
+            // Form9
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(357, 310);
+            this.Controls.Add(this.DataGridView_Address);
+            this.DoubleBuffered = true;
+            this.Name = "Form9";
             this.Text = "Form9";
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Address)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView DataGridView_Address;
     }
 }
