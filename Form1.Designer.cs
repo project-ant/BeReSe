@@ -33,12 +33,25 @@
             this.Label_Login_Visible = new System.Windows.Forms.Label();
             this.TextBox_Login = new System.Windows.Forms.TextBox();
             this.Groupbox_Login = new System.Windows.Forms.GroupBox();
-            this.Label_Username = new System.Windows.Forms.Label();
             this.Label_Password = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TextBox_Password = new System.Windows.Forms.TextBox();
+            this.Label_Username = new System.Windows.Forms.Label();
             Button_Login = new System.Windows.Forms.Button();
             this.Groupbox_Login.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // Button_Login
+            // 
+            Button_Login.BackColor = System.Drawing.Color.MediumSlateBlue;
+            Button_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            Button_Login.ForeColor = System.Drawing.Color.White;
+            Button_Login.Location = new System.Drawing.Point(150, 220);
+            Button_Login.Name = "Button_Login";
+            Button_Login.Size = new System.Drawing.Size(152, 48);
+            Button_Login.TabIndex = 5;
+            Button_Login.Text = "Login";
+            Button_Login.UseVisualStyleBackColor = false;
+            Button_Login.Click += new System.EventHandler(this.Button_Login_Click);
             // 
             // Label_Login_Visible
             // 
@@ -57,13 +70,14 @@
             this.TextBox_Login.Name = "TextBox_Login";
             this.TextBox_Login.Size = new System.Drawing.Size(288, 20);
             this.TextBox_Login.TabIndex = 1;
+            this.TextBox_Login.TextChanged += new System.EventHandler(this.TextBox_Login_TextChanged);
             // 
             // Groupbox_Login
             // 
             this.Groupbox_Login.BackColor = System.Drawing.Color.Transparent;
             this.Groupbox_Login.Controls.Add(Button_Login);
             this.Groupbox_Login.Controls.Add(this.Label_Password);
-            this.Groupbox_Login.Controls.Add(this.textBox1);
+            this.Groupbox_Login.Controls.Add(this.TextBox_Password);
             this.Groupbox_Login.Controls.Add(this.Label_Username);
             this.Groupbox_Login.Controls.Add(this.TextBox_Login);
             this.Groupbox_Login.Controls.Add(this.Label_Login_Visible);
@@ -72,16 +86,6 @@
             this.Groupbox_Login.Size = new System.Drawing.Size(444, 314);
             this.Groupbox_Login.TabIndex = 2;
             this.Groupbox_Login.TabStop = false;
-            // 
-            // Label_Username
-            // 
-            this.Label_Username.AutoSize = true;
-            this.Label_Username.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Username.Location = new System.Drawing.Point(41, 81);
-            this.Label_Username.Name = "Label_Username";
-            this.Label_Username.Size = new System.Drawing.Size(92, 22);
-            this.Label_Username.TabIndex = 2;
-            this.Label_Username.Text = "Username";
             // 
             // Label_Password
             // 
@@ -93,24 +97,22 @@
             this.Label_Password.TabIndex = 4;
             this.Label_Password.Text = "Password";
             // 
-            // textBox1
+            // TextBox_Password
             // 
-            this.textBox1.Location = new System.Drawing.Point(150, 148);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 20);
-            this.textBox1.TabIndex = 3;
+            this.TextBox_Password.Location = new System.Drawing.Point(150, 148);
+            this.TextBox_Password.Name = "TextBox_Password";
+            this.TextBox_Password.Size = new System.Drawing.Size(288, 20);
+            this.TextBox_Password.TabIndex = 3;
             // 
-            // Button_Login
+            // Label_Username
             // 
-            Button_Login.BackColor = System.Drawing.Color.MediumSlateBlue;
-            Button_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            Button_Login.ForeColor = System.Drawing.Color.White;
-            Button_Login.Location = new System.Drawing.Point(150, 220);
-            Button_Login.Name = "Button_Login";
-            Button_Login.Size = new System.Drawing.Size(152, 48);
-            Button_Login.TabIndex = 5;
-            Button_Login.Text = "Login";
-            Button_Login.UseVisualStyleBackColor = false;
+            this.Label_Username.AutoSize = true;
+            this.Label_Username.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Username.Location = new System.Drawing.Point(41, 81);
+            this.Label_Username.Name = "Label_Username";
+            this.Label_Username.Size = new System.Drawing.Size(92, 22);
+            this.Label_Username.TabIndex = 2;
+            this.Label_Username.Text = "Username";
             // 
             // Form_Admin
             // 
@@ -136,7 +138,7 @@
         private System.Windows.Forms.TextBox TextBox_Login;
         private System.Windows.Forms.GroupBox Groupbox_Login;
         private System.Windows.Forms.Label Label_Password;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TextBox_Password;
         private System.Windows.Forms.Label Label_Username;
     }
 }
