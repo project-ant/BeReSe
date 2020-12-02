@@ -32,28 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Mobile_Login));
             this.Groupbox_Login = new System.Windows.Forms.GroupBox();
             this.Label_Password = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TextBox_Password = new System.Windows.Forms.TextBox();
             this.Label_Username = new System.Windows.Forms.Label();
             this.TextBox_Login = new System.Windows.Forms.TextBox();
             this.Label_Login_Visible = new System.Windows.Forms.Label();
             Button_Login = new System.Windows.Forms.Button();
             this.Groupbox_Login.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Groupbox_Login
-            // 
-            this.Groupbox_Login.BackColor = System.Drawing.Color.White;
-            this.Groupbox_Login.Controls.Add(Button_Login);
-            this.Groupbox_Login.Controls.Add(this.Label_Password);
-            this.Groupbox_Login.Controls.Add(this.textBox1);
-            this.Groupbox_Login.Controls.Add(this.Label_Username);
-            this.Groupbox_Login.Controls.Add(this.TextBox_Login);
-            this.Groupbox_Login.Controls.Add(this.Label_Login_Visible);
-            this.Groupbox_Login.Location = new System.Drawing.Point(34, 148);
-            this.Groupbox_Login.Name = "Groupbox_Login";
-            this.Groupbox_Login.Size = new System.Drawing.Size(357, 304);
-            this.Groupbox_Login.TabIndex = 3;
-            this.Groupbox_Login.TabStop = false;
             // 
             // Button_Login
             // 
@@ -66,6 +51,22 @@
             Button_Login.TabIndex = 5;
             Button_Login.Text = "Login";
             Button_Login.UseVisualStyleBackColor = false;
+            Button_Login.Click += new System.EventHandler(this.Button_Login_Click);
+            // 
+            // Groupbox_Login
+            // 
+            this.Groupbox_Login.BackColor = System.Drawing.Color.White;
+            this.Groupbox_Login.Controls.Add(Button_Login);
+            this.Groupbox_Login.Controls.Add(this.Label_Password);
+            this.Groupbox_Login.Controls.Add(this.TextBox_Password);
+            this.Groupbox_Login.Controls.Add(this.Label_Username);
+            this.Groupbox_Login.Controls.Add(this.TextBox_Login);
+            this.Groupbox_Login.Controls.Add(this.Label_Login_Visible);
+            this.Groupbox_Login.Location = new System.Drawing.Point(34, 148);
+            this.Groupbox_Login.Name = "Groupbox_Login";
+            this.Groupbox_Login.Size = new System.Drawing.Size(357, 304);
+            this.Groupbox_Login.TabIndex = 3;
+            this.Groupbox_Login.TabStop = false;
             // 
             // Label_Password
             // 
@@ -77,12 +78,12 @@
             this.Label_Password.TabIndex = 4;
             this.Label_Password.Text = "Password";
             // 
-            // textBox1
+            // TextBox_Password
             // 
-            this.textBox1.Location = new System.Drawing.Point(108, 148);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 20);
-            this.textBox1.TabIndex = 3;
+            this.TextBox_Password.Location = new System.Drawing.Point(108, 148);
+            this.TextBox_Password.Name = "TextBox_Password";
+            this.TextBox_Password.Size = new System.Drawing.Size(243, 20);
+            this.TextBox_Password.TabIndex = 3;
             // 
             // Label_Username
             // 
@@ -133,7 +134,7 @@
 
         private System.Windows.Forms.GroupBox Groupbox_Login;
         private System.Windows.Forms.Label Label_Password;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TextBox_Password;
         private System.Windows.Forms.Label Label_Username;
         private System.Windows.Forms.TextBox TextBox_Login;
         private System.Windows.Forms.Label Label_Login_Visible;

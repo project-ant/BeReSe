@@ -41,15 +41,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Member)).BeginInit();
             this.SuspendLayout();
             // 
-            // DataGridView_Service
-            // 
-            this.DataGridView_Service.BackgroundColor = System.Drawing.SystemColors.HighlightText;
-            this.DataGridView_Service.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView_Service.Location = new System.Drawing.Point(26, 92);
-            this.DataGridView_Service.Name = "DataGridView_Service";
-            this.DataGridView_Service.Size = new System.Drawing.Size(262, 254);
-            this.DataGridView_Service.TabIndex = 0;
-            // 
             // Button_Service
             // 
             Button_Service.BackColor = System.Drawing.Color.White;
@@ -61,6 +52,7 @@
             Button_Service.TabIndex = 6;
             Button_Service.Text = "Service";
             Button_Service.UseVisualStyleBackColor = false;
+            Button_Service.Click += new System.EventHandler(this.Button_Service_Click);
             // 
             // Button_Status
             // 
@@ -73,15 +65,7 @@
             Button_Status.TabIndex = 7;
             Button_Status.Text = "Status";
             Button_Status.UseVisualStyleBackColor = false;
-            // 
-            // DataGridView_Member
-            // 
-            this.DataGridView_Member.BackgroundColor = System.Drawing.SystemColors.HighlightText;
-            this.DataGridView_Member.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView_Member.Location = new System.Drawing.Point(444, 92);
-            this.DataGridView_Member.Name = "DataGridView_Member";
-            this.DataGridView_Member.Size = new System.Drawing.Size(335, 254);
-            this.DataGridView_Member.TabIndex = 8;
+            Button_Status.Click += new System.EventHandler(this.Button_Status_Click);
             // 
             // button_Member
             // 
@@ -94,6 +78,26 @@
             button_Member.TabIndex = 9;
             button_Member.Text = "Member";
             button_Member.UseVisualStyleBackColor = false;
+            button_Member.Click += new System.EventHandler(this.button_Member_Click);
+            // 
+            // DataGridView_Service
+            // 
+            this.DataGridView_Service.BackgroundColor = System.Drawing.SystemColors.HighlightText;
+            this.DataGridView_Service.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridView_Service.Location = new System.Drawing.Point(26, 92);
+            this.DataGridView_Service.Name = "DataGridView_Service";
+            this.DataGridView_Service.Size = new System.Drawing.Size(262, 254);
+            this.DataGridView_Service.TabIndex = 0;
+            this.DataGridView_Service.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_Service_CellContentClick);
+            // 
+            // DataGridView_Member
+            // 
+            this.DataGridView_Member.BackgroundColor = System.Drawing.SystemColors.HighlightText;
+            this.DataGridView_Member.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridView_Member.Location = new System.Drawing.Point(444, 92);
+            this.DataGridView_Member.Name = "DataGridView_Member";
+            this.DataGridView_Member.Size = new System.Drawing.Size(335, 254);
+            this.DataGridView_Member.TabIndex = 8;
             // 
             // Form_Admin_MainMenu
             // 
