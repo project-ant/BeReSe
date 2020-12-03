@@ -78,7 +78,9 @@ namespace BeReSe
 
         private void button_Member_Click(object sender, EventArgs e)
         {
-           
+            Form_Service Form3 = new Form_Service();
+            Form3.Show();
+            this.Hide();
         }
 
         private void Button_Service_Click(object sender, EventArgs e)
