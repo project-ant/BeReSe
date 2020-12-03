@@ -98,6 +98,7 @@
             this.DataGridView_Member.Name = "DataGridView_Member";
             this.DataGridView_Member.Size = new System.Drawing.Size(335, 254);
             this.DataGridView_Member.TabIndex = 8;
+            this.DataGridView_Member.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_Member_CellContentClick);
             // 
             // Form_Admin_MainMenu
             // 
@@ -114,6 +115,7 @@
             this.DoubleBuffered = true;
             this.Name = "Form_Admin_MainMenu";
             this.Text = "Main Menu";
+            this.Load += new System.EventHandler(this.Form_Admin_MainMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Service)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Member)).EndInit();
             this.ResumeLayout(false);

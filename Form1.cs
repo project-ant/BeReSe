@@ -51,8 +51,12 @@ namespace BeReSe
                 {
                     MessageBox.Show("WELCOME");
                     //Insert ins = new Insert();
-                    Form_Admin_MainMenu Form2 = new Form_Admin_MainMenu();
+                    Form_Admin_MainMenu Form2= new Form_Admin_MainMenu();
+                    Form_User_MainMenu Form6 = new Form_User_MainMenu();
+                    Form_Bengkel_MainMenu Form10 = new Form_Bengkel_MainMenu();
                     Form2.Show();
+                    Form6.Show();
+                    Form10.Show();
                     this.Hide();
                 }
                 else

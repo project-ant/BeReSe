@@ -8,10 +8,62 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using MySql.Data.MySqlClient;
+
 namespace BeReSe
 {
     public partial class Form_Admin_MainMenu : Form
     {
+
+        public void refresh_table_Service()
+        {
+            //connection 
+            string myConnection = "datasource=localhost;port=3306;username=root;password=";
+            MySqlConnection myConn = new MySqlConnection(myConnection);
+            MySqlCommand cmdDatabase = new MySqlCommand("select * from db_berese.service;", myConn);
+            try
+            {
+                MySqlDataAdapter sda = new MySqlDataAdapter();
+                sda.SelectCommand = cmdDatabase;
+                DataTable dbdataset = new DataTable();
+                sda.Fill(dbdataset);
+                BindingSource bSource = new BindingSource();
+
+                bSource.DataSource = dbdataset;
+                DataGridView_Service.DataSource = bSource;
+                sda.Update(dbdataset);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        public void refresh_table_Member() 
+        {
+            //connection 
+            string myConnection = "datasource=localhost;port=3306;username=root;password=";
+            MySqlConnection myConn = new MySqlConnection(myConnection);
+            MySqlCommand cmdDatabase = new MySqlCommand("select * from rentalpro.db_customer;", myConn);
+            try
+            {
+                MySqlDataAdapter sda = new MySqlDataAdapter();
+                sda.SelectCommand = cmdDatabase;
+                DataTable dbdataset = new DataTable();
+                sda.Fill(dbdataset);
+                BindingSource bSource = new BindingSource();
+
+                bSource.DataSource = dbdataset;
+                DataGridView_Member.DataSource = bSource;
+                sda.Update(dbdataset);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
         public Form_Admin_MainMenu()
         {
             InitializeComponent();
@@ -19,34 +71,36 @@ namespace BeReSe
 
         private void Button_Status_Click(object sender, EventArgs e)
         {
-
+            Form_Service Form3 = new Form_Service();
+            Form3.Show();
+            this.Hide();
         }
 
         private void button_Member_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void Button_Service_Click(object sender, EventArgs e)
         {
-
+            Form_Service Form3 = new Form_Service();
+            Form3.Show();
+            this.Hide();
         }
 
         private void DataGridView_Service_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            refresh_table();
+           
+        }
 
-            try
-            {
-                DataGridViewRow row = this.dataGridView1.Rows[e.RowIndex];
-                label_id_customer.Text = row.Cells["id_transaksi"].Value.ToString();
-                label_nama_Customer.Text = row.Cells["nama"].Value.ToString();
-                label_kendaraan.Text = row.Cells["jenis_model"].Value.ToString();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+        private void Form_Admin_MainMenu_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void DataGridView_Member_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // ask Mochi to automatically display the content when starting up
         }
     }
 }
