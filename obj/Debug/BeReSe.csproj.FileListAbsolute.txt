@@ -1,6 +1,5 @@
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.csprojAssemblyReference.cache
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_Admin.resources
-C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form10.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form11.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form12.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form13.resources
@@ -9,7 +8,6 @@ C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_Admin_MainMenu.resource
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_Service.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_Status.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_Mobile_Login.resources
-C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form6.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form7.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form8.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form9.resources
@@ -36,3 +34,5 @@ C:\Users\johnp\source\repos\BeReSe\bin\Debug\MySql.Data.xml
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.csproj.CopyComplete
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.exe
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.pdb
+C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_Bengkel_MainMenu.resources
+C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_User_MainMenu.resources

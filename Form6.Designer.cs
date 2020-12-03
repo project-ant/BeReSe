@@ -1,6 +1,6 @@
 ﻿namespace BeReSe
 {
-    partial class Form6
+    partial class Form_User_MainMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_User_MainMenu));
             this.Button_Request = new System.Windows.Forms.Button();
             this.Button_Account = new System.Windows.Forms.Button();
             this.Button_History = new System.Windows.Forms.Button();
@@ -82,7 +82,7 @@
             this.Button_Profile.Text = "Profile";
             this.Button_Profile.UseVisualStyleBackColor = true;
             // 
-            // Form6
+            // Form_User_MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,7 +95,7 @@
             this.Controls.Add(this.Button_Account);
             this.Controls.Add(this.Button_Request);
             this.DoubleBuffered = true;
-            this.Name = "Form6";
+            this.Name = "Form_User_MainMenu";
             this.Text = "Form6";
             this.ResumeLayout(false);
 

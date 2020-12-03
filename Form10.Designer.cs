@@ -1,7 +1,7 @@
 ﻿
 namespace BeReSe
 {
-    partial class Form10
+    partial class Form_Bengkel_MainMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace BeReSe
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Bengkel_MainMenu));
             this.Button_Not_Available = new System.Windows.Forms.Button();
             this.Button_Available = new System.Windows.Forms.Button();
             this.Button_List = new System.Windows.Forms.Button();
@@ -72,7 +72,7 @@ namespace BeReSe
             this.Button_My_Account.Text = "My Account";
             this.Button_My_Account.UseVisualStyleBackColor = true;
             // 
-            // Form10
+            // Form_Bengkel_MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -84,7 +84,7 @@ namespace BeReSe
             this.Controls.Add(this.Button_Available);
             this.Controls.Add(this.Button_Not_Available);
             this.DoubleBuffered = true;
-            this.Name = "Form10";
+            this.Name = "Form_Bengkel_MainMenu";
             this.Text = "Form10";
             this.ResumeLayout(false);
 
