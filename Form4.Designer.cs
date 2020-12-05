@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Status));
             this.dataGridView_Status = new System.Windows.Forms.DataGridView();
+            this.Button_MainMenu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Status)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,6 +44,17 @@
             this.dataGridView_Status.Size = new System.Drawing.Size(349, 347);
             this.dataGridView_Status.TabIndex = 0;
             // 
+            // Button_MainMenu
+            // 
+            this.Button_MainMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_MainMenu.Location = new System.Drawing.Point(736, 13);
+            this.Button_MainMenu.Name = "Button_MainMenu";
+            this.Button_MainMenu.Size = new System.Drawing.Size(52, 29);
+            this.Button_MainMenu.TabIndex = 1;
+            this.Button_MainMenu.Text = "Main Menu";
+            this.Button_MainMenu.UseVisualStyleBackColor = true;
+            this.Button_MainMenu.Click += new System.EventHandler(this.Button_MainMenu_Click);
+            // 
             // Form_Status
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -50,6 +62,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Button_MainMenu);
             this.Controls.Add(this.dataGridView_Status);
             this.DoubleBuffered = true;
             this.Name = "Form_Status";
@@ -62,5 +75,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView_Status;
+        private System.Windows.Forms.Button Button_MainMenu;
     }
 }
