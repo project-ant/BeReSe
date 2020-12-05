@@ -16,5 +16,12 @@ namespace BeReSe
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form_Admin_MainMenu Form2 = new Form_Admin_MainMenu();
+            Form2.Show();
+            this.Hide();
+        }
     }
 }

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Service));
             this.DataGridView_ = new System.Windows.Forms.DataGridView();
+            this.Button_MainMenu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,6 +43,16 @@
             this.DataGridView_.Size = new System.Drawing.Size(418, 328);
             this.DataGridView_.TabIndex = 1;
             // 
+            // Button_MainMenu
+            // 
+            this.Button_MainMenu.Location = new System.Drawing.Point(720, 12);
+            this.Button_MainMenu.Name = "Button_MainMenu";
+            this.Button_MainMenu.Size = new System.Drawing.Size(68, 46);
+            this.Button_MainMenu.TabIndex = 2;
+            this.Button_MainMenu.Text = "Main Menu";
+            this.Button_MainMenu.UseVisualStyleBackColor = true;
+            this.Button_MainMenu.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form_Service
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -49,6 +60,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Button_MainMenu);
             this.Controls.Add(this.DataGridView_);
             this.DoubleBuffered = true;
             this.Name = "Form_Service";
@@ -61,5 +73,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView DataGridView_;
+        private System.Windows.Forms.Button Button_MainMenu;
     }
 }

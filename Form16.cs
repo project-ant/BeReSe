@@ -10,17 +10,24 @@ using System.Windows.Forms;
 
 namespace BeReSe
 {
-    public partial class Form_Status : Form
+    public partial class Form16_ : Form
     {
-        public Form_Status()
+        public Form16_()
         {
             InitializeComponent();
         }
 
+        private void Button_Profile_Click(object sender, EventArgs e)
+        {
+            Form7_Profile Form7 = new Form7_Profile();
+            Form7.Show();
+            this.Hide();
+        }
+
         private void Button_MainMenu_Click(object sender, EventArgs e)
         {
-            Form_Admin_MainMenu Form2 = new Form_Admin_MainMenu();
-            Form2.Show();
+            Form_User_MainMenu Form6 = new Form_User_MainMenu();
+            Form6.Show();
             this.Hide();
         }
     }
