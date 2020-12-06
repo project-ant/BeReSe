@@ -34,6 +34,10 @@ namespace BeReSe
             this.Button_Available = new System.Windows.Forms.Button();
             this.Button_List = new System.Windows.Forms.Button();
             this.Button_My_Account = new System.Windows.Forms.Button();
+            this.PictureBox_Red = new System.Windows.Forms.PictureBox();
+            this.PictureBox_Green = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox_Red)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox_Green)).BeginInit();
             this.SuspendLayout();
             // 
             // Button_Not_Available
@@ -72,6 +76,26 @@ namespace BeReSe
             this.Button_My_Account.Text = "My Account";
             this.Button_My_Account.UseVisualStyleBackColor = true;
             // 
+            // PictureBox_Red
+            // 
+            this.PictureBox_Red.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox_Red.Image")));
+            this.PictureBox_Red.Location = new System.Drawing.Point(119, 55);
+            this.PictureBox_Red.Name = "PictureBox_Red";
+            this.PictureBox_Red.Size = new System.Drawing.Size(128, 25);
+            this.PictureBox_Red.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox_Red.TabIndex = 4;
+            this.PictureBox_Red.TabStop = false;
+            // 
+            // PictureBox_Green
+            // 
+            this.PictureBox_Green.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox_Green.Image")));
+            this.PictureBox_Green.Location = new System.Drawing.Point(119, 55);
+            this.PictureBox_Green.Name = "PictureBox_Green";
+            this.PictureBox_Green.Size = new System.Drawing.Size(128, 25);
+            this.PictureBox_Green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox_Green.TabIndex = 5;
+            this.PictureBox_Green.TabStop = false;
+            // 
             // Form_Bengkel_MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -79,6 +103,8 @@ namespace BeReSe
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(363, 305);
+            this.Controls.Add(this.PictureBox_Green);
+            this.Controls.Add(this.PictureBox_Red);
             this.Controls.Add(this.Button_My_Account);
             this.Controls.Add(this.Button_List);
             this.Controls.Add(this.Button_Available);
@@ -86,6 +112,8 @@ namespace BeReSe
             this.DoubleBuffered = true;
             this.Name = "Form_Bengkel_MainMenu";
             this.Text = "Form10";
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox_Red)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox_Green)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -96,5 +124,7 @@ namespace BeReSe
         private System.Windows.Forms.Button Button_Available;
         private System.Windows.Forms.Button Button_List;
         private System.Windows.Forms.Button Button_My_Account;
+        private System.Windows.Forms.PictureBox PictureBox_Red;
+        private System.Windows.Forms.PictureBox PictureBox_Green;
     }
 }
