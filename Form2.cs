@@ -71,14 +71,14 @@ namespace BeReSe
 
         private void Button_Status_Click(object sender, EventArgs e)
         {
-            Form_Service Form4 = new Form_Service();
+            Form_Status Form4 = new Form_Status();
             Form4.Show();
             this.Hide();
         }
 
         private void button_Member_Click(object sender, EventArgs e)
         {
-            Form_Service Form15 = new Form_Service();
+            Form_Member Form15 = new Form_Member();
             Form15.Show();
             this.Hide();
         }

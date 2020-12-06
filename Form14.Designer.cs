@@ -1,7 +1,7 @@
 ﻿
 namespace BeReSe
 {
-    partial class Form14
+    partial class Form_Edit
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace BeReSe
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form14));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Edit));
             this.Label_Nama_Bengkel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -112,7 +112,7 @@ namespace BeReSe
             this.label3.TabIndex = 7;
             this.label3.Text = "_ _ _";
             // 
-            // Form14
+            // Form_Edit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,7 +128,7 @@ namespace BeReSe
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Label_Nama_Bengkel);
             this.DoubleBuffered = true;
-            this.Name = "Form14";
+            this.Name = "Form_Edit";
             this.Text = "Form14";
             this.ResumeLayout(false);
             this.PerformLayout();

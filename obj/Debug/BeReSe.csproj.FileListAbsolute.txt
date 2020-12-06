@@ -33,8 +33,8 @@ C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.exe
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.pdb
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_Bengkel_MainMenu.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_User_MainMenu.resources
-C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form15.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form9_Report.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form7_Profile.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form16_.resources
 C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form8_Vehicle.resources
+C:\Users\johnp\source\repos\BeReSe\obj\Debug\BeReSe.Form_Member.resources

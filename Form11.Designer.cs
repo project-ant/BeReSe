@@ -1,7 +1,7 @@
 ﻿
 namespace BeReSe
 {
-    partial class Form11
+    partial class Form_Alert
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace BeReSe
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form11));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Alert));
             this.DataGridView_Alert = new System.Windows.Forms.DataGridView();
             this.Button_Deny = new System.Windows.Forms.Button();
             this.Button_Accept = new System.Windows.Forms.Button();
@@ -62,7 +62,7 @@ namespace BeReSe
             this.Button_Accept.Text = "Accept";
             this.Button_Accept.UseVisualStyleBackColor = true;
             // 
-            // Form11
+            // Form_Alert
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -73,7 +73,7 @@ namespace BeReSe
             this.Controls.Add(this.Button_Deny);
             this.Controls.Add(this.DataGridView_Alert);
             this.DoubleBuffered = true;
-            this.Name = "Form11";
+            this.Name = "Form_Alert";
             this.Text = "Form11";
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Alert)).EndInit();
             this.ResumeLayout(false);

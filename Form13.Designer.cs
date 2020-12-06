@@ -71,6 +71,7 @@ namespace BeReSe
             this.Button_Edit.TabIndex = 3;
             this.Button_Edit.Text = "Edit";
             this.Button_Edit.UseVisualStyleBackColor = true;
+            this.Button_Edit.Click += new System.EventHandler(this.Button_Edit_Click);
             // 
             // Form13
             // 

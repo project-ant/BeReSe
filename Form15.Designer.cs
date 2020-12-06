@@ -1,7 +1,7 @@
 ﻿
 namespace BeReSe
 {
-    partial class Form15
+    partial class Form_Member
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace BeReSe
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form15));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Member));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Button_MainMenu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -53,7 +53,7 @@ namespace BeReSe
             this.Button_MainMenu.UseVisualStyleBackColor = true;
             this.Button_MainMenu.Click += new System.EventHandler(this.Button_MainMenu_Click);
             // 
-            // Form15
+            // Form_Member
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -63,7 +63,7 @@ namespace BeReSe
             this.Controls.Add(this.Button_MainMenu);
             this.Controls.Add(this.dataGridView1);
             this.DoubleBuffered = true;
-            this.Name = "Form15";
+            this.Name = "Form_Member";
             this.Text = "Form15";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
