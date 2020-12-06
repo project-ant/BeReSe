@@ -16,5 +16,10 @@ namespace BeReSe
         {
             InitializeComponent();
         }
+
+        private void Button_Edit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

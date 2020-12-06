@@ -48,6 +48,7 @@ namespace BeReSe
             this.Button_Not_Available.TabIndex = 0;
             this.Button_Not_Available.Text = "Not Available";
             this.Button_Not_Available.UseVisualStyleBackColor = true;
+            this.Button_Not_Available.Click += new System.EventHandler(this.Button_Not_Available_Click);
             // 
             // Button_Available
             // 
@@ -57,6 +58,7 @@ namespace BeReSe
             this.Button_Available.TabIndex = 1;
             this.Button_Available.Text = "Available";
             this.Button_Available.UseVisualStyleBackColor = true;
+            this.Button_Available.Click += new System.EventHandler(this.Button_Available_Click);
             // 
             // Button_List
             // 
@@ -66,6 +68,7 @@ namespace BeReSe
             this.Button_List.TabIndex = 2;
             this.Button_List.Text = "List";
             this.Button_List.UseVisualStyleBackColor = true;
+            this.Button_List.Click += new System.EventHandler(this.Button_List_Click);
             // 
             // Button_My_Account
             // 
@@ -95,6 +98,7 @@ namespace BeReSe
             this.PictureBox_Green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox_Green.TabIndex = 5;
             this.PictureBox_Green.TabStop = false;
+            this.PictureBox_Green.Visible = false;
             // 
             // Form_Bengkel_MainMenu
             // 

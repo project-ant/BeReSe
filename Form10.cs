@@ -16,5 +16,22 @@ namespace BeReSe
         {
             InitializeComponent();
         }
+
+        private void Button_List_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Available_Click(object sender, EventArgs e)
+        {
+            PictureBox_Green.Visible = true;
+            PictureBox_Red.Visible = false;
+        }
+
+        private void Button_Not_Available_Click(object sender, EventArgs e)
+        {
+            PictureBox_Green.Visible = false;
+            PictureBox_Red.Visible = true;
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BeReSe
 {
-    public partial class Form12 : Form
+    public partial class Form_List : Form
     {
-        public Form12()
+        public Form_List()
         {
             InitializeComponent();
         }
