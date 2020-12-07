@@ -23,11 +23,11 @@ namespace BeReSe
         {
             try
             {
-                //connection 
+                //connection
                 string myConnection = "datasource=localhost;port=3306;username=root;password=";
                 MySqlConnection myConn = new MySqlConnection(myConnection);
 
-                MySqlCommand SelectCommand = new MySqlCommand("select * from db_berese.admin where username= '" + this.TextBox_Login.Text + "' and password='" + this.TextBox_Password.Text + "' ;", myConn);
+                MySqlCommand SelectCommand = new MySqlCommand("SELECT * FROM db_berese.admin WHERE username= '" + this.TextBox_Login.Text + "' and password='" + this.TextBox_Password.Text + "' ;", myConn);
                 MySqlDataReader myReader;
                 myConn.Open();
 

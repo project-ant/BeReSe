@@ -30,19 +30,7 @@ namespace BeReSe
             Form16.Show();
             this.Hide();
         }
-
-        /*private void Button_History_Click(object sender, EventArgs e)
-        {
-            Form_User_MainMenu Form2 = new Form_User_MainMenu();
-            Form2.Show();
-            this.Hide();
-        }*/
-
-        private void Button_Search_Click(object sender, EventArgs e)
-        {
-           
-        }
-
+        
         private void Button_Profile_Click(object sender, EventArgs e)
         {
             Form7_Profile Form7 = new Form7_Profile();

@@ -33,5 +33,11 @@ namespace BeReSe
             PictureBox_Green.Visible = false;
             PictureBox_Red.Visible = true;
         }
+
+        private void Button_My_Account_Click(object sender, EventArgs e){
+          Form7_Profile Form7 = new Form7_Profile();
+          Form7.Show();
+          this.Hide();
+        }
     }
 }
